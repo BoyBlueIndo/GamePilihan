@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Pilihan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <h1>Game Pilihan</h1>
+      <img id="images" src="Bagian1.png" alt="" class="hidden" />
+      <p id="story">
+        Kamu tersesat di suatu hutan. Kamu tidak tahu arah jalan pulang. Untuk saat ini, kamu sedang berjalan-jalan
+      </p>
+      <div id="choices">
+        <button class="button" onclick="makeChoice('jalan')">
+          Jalan
+        </button>
+        <button class="button" onclick="makeChoice('jalan')">
+          Jalan
+        </button>
+      </div>
+      <p id="ending" class="hidden"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
